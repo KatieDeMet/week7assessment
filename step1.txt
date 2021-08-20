@@ -1,0 +1,33 @@
+Jenkins is an open source DevOps tool that is used for both continuous integration
+and monitoring. One of the greatest advantages in my mind for this tool is that
+because it is so popular, it has a wide community that has already encountered
+many issues and can be reached out to for troubleshooting. It's also open source,
+so if I ever get good enough, I could potentially tailor to CI process for whatever
+unique project I'm working on. Until I get there though, it comes with thousands of
+plugins already and is free to use. It's also built in Java, so it's portable to all
+the major platforms.
+
+Jenkins provides one-click easy downloads and offers extensive documentation at 
+https://www.jenkins.io/doc/book/installing/. They also offer an enormous community
+of fellow users to connect with for help and support. https://www.jenkins.io/participate/
+Jenkins does offer a guided tour for beginners in the tutorial section. If I was
+going to branch out into something new alone, I would feel comfortable with Jenkins.
+
+The timeline for Jenkins is unclear. One website says 2004 but Wikipedia says it was 
+released 2011. Either way, the Jenkins website itself says by 2019 it had 200,000
+known downloads and the community has coninued to grow. Github shows at least 13 years
+of activity.
+
+Sensu is a full-stack monitoring app that allows you to monitor applications, servers, 
+reports, etc. It works on all popular operating systems and is free to use.
+
+For the set-up, they make it look like 3 easy steps, but none of them are. There are
+a bunch of commands that you're supposed to put in the terminal. It says you can just
+copy and paste them, but it makes me nervous not understand everything it's changing.
+It doesn't explain next to the code what it's doing but has a link to a separate doc
+page and the link to the documentation is kind of hidden too. There is a community
+page but it seems kind of small.
+
+Sensu has only been around since 2017, so it's still a relatively new and unsecure
+tech tool. It seems you have to have a basic understanding of docker containers before
+you can attempt to use the tool.

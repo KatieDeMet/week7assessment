@@ -60,3 +60,50 @@ let resultsInsert = perf.stop();
 console.log('Results for the extraLargeArray');
 console.log("insert", resultsInsert.preciseWords);
 console.log("append", resultsAppend.preciseWords);
+
+//Apend method times
+
+perf.start();                  
+doublerAppend(tinyArray);
+let resultsTinyAppend = perf.stop();
+
+perf.start();                  
+doublerAppend(smallArray);
+let resultsSmallAppend = perf.stop();
+
+perf.start();                  
+doublerAppend(mediumArray);
+let resultsMediumAppend = perf.stop();
+
+perf.start();                  
+doublerAppend(largeArray);
+let resultsLargeAppend = perf.stop();
+
+console.log("Results for the push method")
+console.log("tiny:", resultsTinyAppend.preciseWords)
+console.log("small:", resultsSmallAppend.preciseWords)
+console.log("medium:", resultsMediumAppend.preciseWords)
+
+//Insert method times
+
+perf.start();                  
+doublerInsert(tinyArray);
+let resultsTinyInsert = perf.stop();
+
+perf.start();                  
+doublerInsert(smallArray);
+let resultsSmallInsert = perf.stop();
+
+perf.start();                  
+doublerInsert(mediumArray);
+let resultsMediumInsert = perf.stop();
+
+perf.start();                  
+doublerInsert(largeArray);
+let resultsLargeInsert = perf.stop();
+
+console.log("Results for the unshift method")
+console.log("tiny:", resultsTinyInsert.preciseWords)
+console.log("small:", resultsSmallInsert.preciseWords)
+console.log("medium:", resultsMediumInsert.preciseWords)
+console.log("large:", resultsLargeInsert.preciseWords)
